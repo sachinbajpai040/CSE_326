@@ -1,0 +1,74 @@
+#links{
+	color: black;
+	padding-left: 50px;
+}
+
+#links:hover{
+	color:red;
+}
+
+#links.active{
+	color: blue;
+}
+
+#title{
+	padding-top: 30px;
+	text-align:center;
+	font-weight: bold;
+}
+
+#add-label{
+	font-weight: bold;
+	text-align: center;
+	margin-left: 35%;
+}
+
+#add-form{
+	width: 50%;
+	margin-left: 100%;
+}
+
+#body{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 60px;
+	font-weight: bold;
+}
+
+.tb{
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+#email{
+	width: 300px;
+	margin-left: 110px; 
+	padding-top: 10px;
+}
+#form{
+	padding-top: 20px;
+}
+
+#label{
+	padding-left: 145px;
+	font-weight: bold;
+}
+
+body{
+	background-image: url(../images/hg.jpg);
+	    background-size: 100%;
+}
+
+.header{
+	background-color: white;
+}
+
+#btn{
+	margin-top: 50px;
+	margin-left: 330px;
+}
+
+#btn-add{
+	margin-top: 40px;
+	
+}

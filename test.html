@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>C Programming Language Output this code Quizzes 1</title>
+    
+                <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+    
+   </head>
+  
+   <body >
+      <h1 style="text-align: center;">WELCOME TO THE TEST</h1>
+      <br><br><br>
+      <h1>CSE 326 PROGRAMMING TEST</h1>
+
+<div class="scp-quizzes-main">
+<div class="scp-quizzes-data">
+  <h3>1. What is the output of the below c code?</h3>
+    <pre>#include&lt;stdio.h>	
+main() 
+{
+   int x = 5;
+   
+   if(x=5)
+   {	
+      if(x=5) printf("Fast");
+   } 
+   printf("learning");
+}</pre>
+<br/>
+    <input type="radio" id="Fastlearning" name="question1">
+       <label for="Fastlearning">1. Fastlearning</label><br/>
+    <input type="radio"  name="question1" >
+       <label id="q1">2. learning</label><br/>
+    <input type="radio" name="question1">
+       <label id="q2">3. learningFast</label> <br/>
+    <input type="radio" name="question1">
+     <label id="q3">4. Fast</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>2. How would you insert pre-written code into a current program ?</h3>
+    <pre>#include&lt;stdio.h>	
+main() 
+{
+   int x = 5;
+   
+   if(x=5)
+   {	
+      if(x=5) printf("Fast");
+   } 
+   printf("learning");
+}</pre>
+<br/>
+    <input type="radio" name="question2" >
+       <label id="q11">1. #read&lt;file></label><br/>
+    <input type="radio"  name="question2" >
+       <label id="q22">2. #get &lt;file></label><br/>
+    <input type="radio" name="question2" id="inculdefile">
+       <label for="inculdefile">3. #include &lt;file></label> <br/>
+    <input type="radio" name="question2" >
+     <label id="q33">4. #pre &lt;file></label> 
+ </div>
+</div>
+<button type="submit" style="font-weight: 50px;; margin-left: 80%; background-color: blue; border: brown; padding: 15px;" onclick="func()">SUBMIT TEST</button>
+<script>
+    document.getElementById("q1").addEventListener("click",function(){
+        document.getElementById("q1").style.backgroundColor="red";  
+      alert('WRONG ANSWER TRY AGAIN');
+      });
+        document.getElementById("q2").addEventListener("click",function(){
+        document.getElementById("q2").style.backgroundColor="red";   
+        alert('WRONG ANSWER TRY AGAIN');
+      });
+        document.getElementById("q3").addEventListener("click",function(){
+        document.getElementById("q3").style.backgroundColor="red";  
+        alert('WRONG ANSWER TRY AGAIN');
+       });
+        document.getElementById("q11").addEventListener("click",function(){
+        document.getElementById("q11").style.backgroundColor="red";
+        alert('WRONG ANSWER TRY AGAIN');
+         });
+        document.getElementById("q22").addEventListener("click",function(){
+        document.getElementById("q22").style.backgroundColor="red"; 
+        alert('WRONG ANSWER TRY AGAIN');
+        });
+        document.getElementById("q33").addEventListener("click",function(){
+        document.getElementById("q33").style.backgroundColor="red"; 
+        alert('WRONG ANSWER TRY AGAIN');
+        });
+        function func()
+        {
+           alert("Test submitted");
+           window.location="student.html";
+           alert("Test");
+        }
+        
+</script>
+</body></html>

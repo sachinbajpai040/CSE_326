@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Add Users</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body>
+	<!--header-->
+	<div class="header">
+		<nav class="navbar">
+			<a class="navbar-brand">EXAMINATION MANAGEMENT SYSTEM</a>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="home.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="users.html">Manage Users</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" id="links" href="addusers.html">Add Uers</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="index.html">Logout</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<!--/header-->
+	<!--section-->
+	<div class="section">
+		<h2 id="title">Add Users</h2>
+		<form id="form">
+			<div class="form-group-row">
+				<label  for="choice4" class="col-sm-4 col-form-label" id="add-label">Username:</label>
+				<div class="col-sm-5">
+				<input type="text" placeholder="Please Enter Username" class="form-control" id="add-form" name="Enter question"required>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="choice1" class="col-sm-4 col-form-label" id="add-label">Enter UID:</label>
+				<div class="col-sm-5">
+					<input type="text" placeholder="Please Enter UID" class="form-control" id="add-form" name="Enter Choice 1" required>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="choice2" class="col-sm-4 col-form-label" id="add-label">Enter User Type</label>
+				<div class="col-sm-5">
+					<input type="text" placeholder="Please Enter User type" class="form-control" id="add-form" name="Enter Choice 2" required>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="choice3" class="col-sm-4 col-form-label" id="add-label">Enter phone number:</label>
+				<div class="col-sm-5">
+					<input type="text" placeholder="Please Enter phone number" class="form-control" id="add-form" name="Enter Choice 3" required>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="choice4" class="col-sm-4 col-form-label" id="add-label">Enter Education Field</label>
+				<div class="col-sm-5">
+				<center><input type="text" placeholder="Please Enter field" class="form-control" id="add-form" name="Enter Choice 4" required></center>
+				</div>
+			</div>
+			<center><button type="submit" id="btn-add" class="btn btn-rounded btn-success" onclick="fucn()">Add +</button></center>
+		</form>
+	</div>
+	<!--/section-->
+	<script>function fucn()
+	{
+	   alert('USER SUCCESSFULLY ADDED');
+	}</script>
+</body>
+
+</html>

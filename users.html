@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+   users.html
+   
+   Copyright 2020 Saksham Mathur <saksham.mathur25@gmail.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<head>
+<meta charset="utf-8" />
+<title>Manage Users</title>
+<link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body >
+	<!--header-->
+	<div class="header">
+		<nav class="navbar">
+			<a class="navbar-brand">EXAMINATION MANAGEMENT SYSTEM</a>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="home.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" id="links" href="users.html">Manage Users</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="addusers.html">Add Users</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="links" href="index.html">Logout</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<!--/header-->
+	<!--section-->
+	<div class="section">
+		<h2 id="title">Manage Users</h2>
+		<table class="table table-bordered tb">
+			<thead>
+				<tr>
+					<td scope="col">UID</td>
+					<td scope="col">First Name</td>
+					<td scope="col">Last Name</td>
+					<td scope="col">User Type</td>
+					<td scope="col"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="d1">
+					<td scope="col">11713279</td>
+					<td scope="col">Sachin</td>
+					<td scope="col">Bajpai</td>
+					<td scope="col">Faculty</td>
+					<td scope="col"><button class="btn btn-primary" id="d11">Delete</button></td>
+				</tr>
+				<tr id="d2">
+					<td scope="col">11713456</td>
+					<td scope="col">Akshita</td>
+					<td scope="col">Arora</td>
+					<td scope="col">Student</td>
+					<td scope="col"><button class="btn btn-primary"  id="d22">Delete</td>
+				</tr>
+				<tr id="d3">
+					<td scope="col">11872683</td>
+					<td scope="col">Chintapalli</td>
+					<td scope="col">Shrinu</td>
+					<td scope="col">Faculty</td>
+					<td scope="col"><button class="btn btn-primary" id="d33">Delete</button></td>
+				</tr>
+				<tr id="d4">
+					<td scope="col">11872683</td>
+					<td scope="col">Bishesh</td>
+					<td scope="col">Singh</td>
+					<td scope="col">Faculty</td>
+					<td scope="col"><button class="btn btn-primary" id="d44">Delete</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!--/section-->
+	<script>
+		document.getElementById("d11").addEventListener("click",function(){
+                 document.getElementById("d1").style.display="none";
+		});
+		document.getElementById("d22").addEventListener("click",function(){
+                 document.getElementById("d2").style.display="none";
+		});
+		document.getElementById("d33").addEventListener("click",function(){
+                 document.getElementById("d3").style.display="none";
+		});
+		document.getElementById("d44").addEventListener("click",function(){
+                 document.getElementById("d4").style.display="none";
+		});
+	</script>
+</body>
+
+</html>
