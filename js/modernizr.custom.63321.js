@@ -53,8 +53,9 @@ var type=0;
        {
         
         if (username=="Admin@1" && password=="Admin#123") {
-            window.location ="home.html";
-           alert("Login Successful");
+          alert("Login Successful"); 
+          window.location.href ="C:/Users/Sachin Bajpai/Documents/GitHub/CSE_326/home.html";
+           
                     }
             else {
               alert("Login unsuccessful please try again");
