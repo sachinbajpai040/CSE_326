@@ -52,9 +52,13 @@ var type=0;
        else if(type==1)
        {
         
-        if (username=="Admin@1" && password=="Admin#123") {
+        if (username=="Admin@1" && password=="3") {
+          console.log('before alert');
           alert("Login Successful"); 
-          window.location.href ="C:/Users/Sachin Bajpai/Documents/GitHub/CSE_326/home.html";
+          // window.location.href ="C:/Users/Sachin Bajpai/Documents/GitHub/CSE_326/home.html";
+          // window.location.href = 'home.html';
+          window.open('home.html','_self');
+          console.log('after alert');
            
                     }
             else {
