@@ -26,24 +26,45 @@ var type=0;
   function validate()
   {
     var username=document.getElementById("username").value ; 
+    var username1=document.getElementById("username").value ; 
     var password = document.getElementById('password').value;
+    var password1 = document.getElementById('password').value;
+    
       if(type==0)
       {
           alert('Please select usertype');
+          // window.confirm("Please select usertype");
+          event. preventDefault() ;
+          // username1=username; 
+          // password1 = password;
       }
-       if(type==1)
+      
+        else if(username.length==0)
+        {
+          alert("Please enter the username");
+          event.preventDefault();
+        }
+        else if(password.length==0)
+        {
+          alert("Please enter the password");
+          event.preventDefault();
+        }
+       else if(type==1)
        {
-          
+        
         if (username=="Admin@1" && password=="Admin#123") {
             window.location ="home.html";
            alert("Login Successful");
-                    } else {
-                alert("Login unsuccessful please try again");
+                    }
+            else {
+              alert("Login unsuccessful please try again");
         
             }
        }
-       if(type==3)
+       else if(type==3)
        {
+
+        
         if (username=="uid548" && password=="548@123") {
      
             window.location = "faculty.html";
@@ -54,8 +75,9 @@ var type=0;
     
         }
        }
-       if(type==2)
+       else if(type==2)
        {
+         
         if (username=="11903748" && password=="lpu@123") {
            
             window.location= "student.html";
