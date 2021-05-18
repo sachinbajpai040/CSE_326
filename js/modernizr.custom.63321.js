@@ -57,8 +57,7 @@ var type=0;
           alert("Login Successful"); 
           // window.location.href ="C:/Users/Sachin Bajpai/Documents/GitHub/CSE_326/home.html";
           // window.location.href = 'home.html';
-          window.open('home.html');
-          // window.close();
+          window.open('home.html','_self');
           console.log('after alert');
            
                     }
